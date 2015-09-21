@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213414C71BAE0905000C5D53 /* youWinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213414C61BAE0905000C5D53 /* youWinScene.swift */; };
 		214181C71BACB2460009B6E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214181C61BACB2460009B6E7 /* AppDelegate.swift */; };
 		214181C91BACB2460009B6E7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 214181C81BACB2460009B6E7 /* GameScene.sks */; };
 		214181CB1BACB2460009B6E7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214181CA1BACB2460009B6E7 /* GameScene.swift */; };
@@ -15,6 +16,7 @@
 		214181D21BACB2460009B6E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214181D11BACB2460009B6E7 /* Images.xcassets */; };
 		214181D51BACB2460009B6E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214181D31BACB2460009B6E7 /* LaunchScreen.xib */; };
 		214181E11BACB2460009B6E7 /* inEggGame2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214181E01BACB2460009B6E7 /* inEggGame2Tests.swift */; };
+		F550B8121BB0CCD000CDC44D /* GameSelectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550B8111BB0CCD000CDC44D /* GameSelectionScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		213414C61BAE0905000C5D53 /* youWinScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = youWinScene.swift; sourceTree = "<group>"; };
 		214181C11BACB2460009B6E7 /* inEggGame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inEggGame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		214181C51BACB2460009B6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		214181C61BACB2460009B6E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		214181DA1BACB2460009B6E7 /* inEggGame2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inEggGame2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		214181DF1BACB2460009B6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		214181E01BACB2460009B6E7 /* inEggGame2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inEggGame2Tests.swift; sourceTree = "<group>"; };
+		F550B8111BB0CCD000CDC44D /* GameSelectionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSelectionScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +85,12 @@
 		214181C31BACB2460009B6E7 /* inEggGame2 */ = {
 			isa = PBXGroup;
 			children = (
+				214181EB1BACB2800009B6E7 /* sound */,
 				214181C61BACB2460009B6E7 /* AppDelegate.swift */,
 				214181C81BACB2460009B6E7 /* GameScene.sks */,
 				214181CA1BACB2460009B6E7 /* GameScene.swift */,
+				F550B8111BB0CCD000CDC44D /* GameSelectionScene.swift */,
+				213414C61BAE0905000C5D53 /* youWinScene.swift */,
 				214181CC1BACB2460009B6E7 /* GameViewController.swift */,
 				214181CE1BACB2460009B6E7 /* Main.storyboard */,
 				214181D11BACB2460009B6E7 /* Images.xcassets */,
@@ -116,6 +123,13 @@
 				214181DF1BACB2460009B6E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		214181EB1BACB2800009B6E7 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				214181CB1BACB2460009B6E7 /* GameScene.swift in Sources */,
+				213414C71BAE0905000C5D53 /* youWinScene.swift in Sources */,
 				214181CD1BACB2460009B6E7 /* GameViewController.swift in Sources */,
+				F550B8121BB0CCD000CDC44D /* GameSelectionScene.swift in Sources */,
 				214181C71BACB2460009B6E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +435,7 @@
 				214181E61BACB2460009B6E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		214181E71BACB2460009B6E7 /* Build configuration list for PBXNativeTarget "inEggGame2Tests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +444,7 @@
 				214181E91BACB2460009B6E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
