@@ -17,6 +17,7 @@
 		214181D51BACB2460009B6E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214181D31BACB2460009B6E7 /* LaunchScreen.xib */; };
 		214181E11BACB2460009B6E7 /* inEggGame2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214181E01BACB2460009B6E7 /* inEggGame2Tests.swift */; };
 		F550B8121BB0CCD000CDC44D /* GameSelectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550B8111BB0CCD000CDC44D /* GameSelectionScene.swift */; };
+		F550B8141BB133E900CDC44D /* GameSelectionScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F550B8131BB133E900CDC44D /* GameSelectionScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		214181DF1BACB2460009B6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		214181E01BACB2460009B6E7 /* inEggGame2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inEggGame2Tests.swift; sourceTree = "<group>"; };
 		F550B8111BB0CCD000CDC44D /* GameSelectionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSelectionScene.swift; sourceTree = "<group>"; };
+		F550B8131BB133E900CDC44D /* GameSelectionScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameSelectionScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				214181C61BACB2460009B6E7 /* AppDelegate.swift */,
 				214181C81BACB2460009B6E7 /* GameScene.sks */,
 				214181CA1BACB2460009B6E7 /* GameScene.swift */,
+				F550B8131BB133E900CDC44D /* GameSelectionScene.sks */,
 				F550B8111BB0CCD000CDC44D /* GameSelectionScene.swift */,
 				213414C61BAE0905000C5D53 /* youWinScene.swift */,
 				214181CC1BACB2460009B6E7 /* GameViewController.swift */,
@@ -212,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F550B8141BB133E900CDC44D /* GameSelectionScene.sks in Resources */,
 				214181D51BACB2460009B6E7 /* LaunchScreen.xib in Resources */,
 				214181D21BACB2460009B6E7 /* Images.xcassets in Resources */,
 				214181C91BACB2460009B6E7 /* GameScene.sks in Resources */,
